@@ -30,7 +30,7 @@ stages:
 
     - task: Docker@2
       inputs:
-       containerRegistry: 'DockerHub'
+       containerRegistry: 'Docker Hub'
        repository: 'faizariaz/nodejs'
        command: 'buildAndPush'
        Dockerfile: '**/Dockerfile'
